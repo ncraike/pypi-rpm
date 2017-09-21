@@ -1,5 +1,5 @@
 """Placeholder pending proper publication of RPM Python bindings"""
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 import warnings
 
