@@ -1,13 +1,10 @@
-# pypi-dnf
+# pypi-rpm
 
-Placeholder package to make the DNF Python API available through PyPI.
+Placeholder package to make the RPM Python API available through PyPI.
 
-A number of DNF's dependencies (notable libdnf and libsolv) are currently
-only available as part of Linux distro packages.
-
-Right now, this package just reserves the `dnf` name on PyPI to avoid the
-potential for a name conflict with the `python3-dnf` packages on Linux distros
-using DNF for RPM dependency management.
+Right now, this package just reserves the `rpm` name on PyPI to avoid the
+potential for a name conflict with the `python2-rpm` and `python3-rpm`
+Python bindings on RPM-based Linux distros.
 
 However, I eventually hope to replace it with a CMake-dependent PEP 517 backend
 that runs the full libdnf build process, and then emits a statically linked
