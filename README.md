@@ -8,4 +8,5 @@ Python bindings on RPM-based Linux distros.
 
 Unlike libsolv and libdnf (which use CMake, and are hence amenable to PyPI
 compatible build automation with scikit-build), rpm itself still uses autotools,
-to create
+so creating usable pip-installable Python bindings for it may be a bit trickier
+than doing so for the other libraries.
